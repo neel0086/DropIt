@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding:5px 0 8px 15px;
+}
+.container .head{
+    margin-top: 60px;
+    font-size: 17px;
+    font-family: cursive;
+    padding: 3px;
+    border-bottom:inset 2px
+}
+.empty{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: invert(0.5);
+}

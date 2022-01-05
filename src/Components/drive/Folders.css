@@ -1,0 +1,78 @@
+
+.Fchild{
+    outline: none;
+    border: none;
+    padding: 15px;
+    background-color: rgb(226, 226, 226);
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}
+.Fchild > li + li:before {
+    color: #ccc;
+    content: ">";
+    padding: 0 5px;
+}
+.Fchild:hover{
+    border:3px solid rgb(177, 177, 177);
+    background-color: black;
+    color: whitesmoke;
+}
+.Fchild i{
+    padding-right: 10px;
+    font-size: 27px;
+}
+@media (max-width:761px){
+    .Fchild{
+        max-width: 170px;
+    }
+    
+}
+@media (max-width:512px){
+    .Fchild{
+        max-width: 140px;
+        padding: 8px;
+    }
+    
+}
+@media (max-width:512px){
+    .Fchild{
+        max-width: 120px;
+        padding: 5px;
+    }
+    
+}
+@media (max-width:325px){
+    .Fchild{
+        width: 130px;
+    }
+    .Fchild i{
+        font-size:22px ;
+    }
+}
+@media (max-width:312px){
+    .Fchild{
+        font-size: 12px;
+        max-width: 110px;
+        padding: 5px;
+    }
+    
+    
+}
+@media (max-width:297px){
+    .Fchild{
+        font-size: 12px;
+        max-width: 100px;
+        padding: 5px;
+    }
+    .Fchild i{
+        font-size:20px ;
+    }
+    
+}

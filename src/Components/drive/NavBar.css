@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 3%;
+    font-size: 18px;
+    background-color: rgb(35, 33, 47) !important;
+    z-index: 50000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.AppName{
+    cursor: pointer;
+    display: flex;
+    color: white;
+}
+.AppName img{
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+}
+.profile{
+    cursor: pointer;
+    vertical-align: middle;color: white;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.personal{
+    display: flex;
+}
+@media (max-width:450px) {
+    .nav{
+        font-size: 20px;
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media (max-width:400px) {
+    .nav{
+        font-size: 18px;
+    }
+    .profile img{
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+@media (max-width:360px) {
+    .nav{
+        font-size: 15px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (max-width:312px) {
+    .nav{
+        font-size: 13px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (max-width:284px) {
+    .nav{
+        font-size: 11px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}

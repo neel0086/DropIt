@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    padding:8px 0 8px 25px;
+    display: flex;
+}
+.user_style{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+.folderstyle{
+    font-family: cursive;
+    filter: invert(0.4);
+    padding: 10px;
+    border-bottom:inset 2px
+}
+.flexx{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.empty{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: invert(0.5);
+}
+
+@media (max-width:1411px){
+    .flexx{
+        
+        margin: 0 10px 0 0
+    }
+}
