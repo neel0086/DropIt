@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 1%;
+    font-size: 18px;
+    background-color: rgb(35, 33, 47) !important;
+    z-index: 50000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.AppName{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.AppName img{
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+}
+.profile{
+    cursor: pointer;
+    vertical-align: middle;color: white;
+    position: relative;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    position: absolute;
+    right: 0;
+    top:3rem;
+}
+@media (max-width:450px) {
+    .nav{
+        font-size: 20px;
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media (max-width:400px) {
+    .nav{
+        font-size: 18px;
+    }
+    .profile img{
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+@media (max-width:360px) {
+    .nav{
+        font-size: 15px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (max-width:312px) {
+    .nav{
+        font-size: 13px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (max-width:284px) {
+    .nav{
+        font-size: 11px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+  .dropdown{
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);/*Adds a drop shadow*/
+    z-index: 1;
+      border-radius: 2%;
+  }
+  .dropdown ul{
+    padding-top: 1rem;
+  }
+  
+  .dropdown:after{
+      content:''; /* Required to display content */
+      position: absolute; /* Sets the position absolute to the top div */
+      top: 0;
+      left: 35%;/* position the little arrow */
+      margin-left: -15px;
+          margin-top:-15px; /* Set margin equal to border px */
+      width: 0;
+      z-index:1;
+      height: 0;
+      border-bottom: solid 15px #FFF; /* Creates the arrow pointing up, to change to a notch instead user border-top */
+      border-left: solid 15px transparent; /* Creates triangle effect */
+      border-right: solid 15px transparent; /* Creates triangle effect */
+  }
+  

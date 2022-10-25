@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "freespace-b3ed2",
+    "build": "freespace-b3ed2"
+  },
+  "targets": {}
+}

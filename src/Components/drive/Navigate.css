@@ -1,0 +1,56 @@
+.cds{
+    padding-top: 50px;
+}
+.mobileview{
+    font-size: 20px;
+    padding: 0px 1px;
+    max-width: 100px;
+}
+ol li a{
+    font-family: cursive;
+    font-size: 14px;
+    color: #569efb;
+    text-decoration: none; 
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: '>';
+}
+/* .mobileview .hex{
+    overflow: hidden;
+    max-width: 2000px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+
+@media (max-width:372px) {
+    .mobileview{
+        font-size: 17px;
+    }
+    
+}
+@media (max-width:345px) {
+    .mobileview{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:326px) {
+    .mobileview{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width:308px) {
+    .mobileview{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    
+}
+@media (max-width:308px) {
+    .mobileview{
+        font-size: 14px;
+        padding: 10px 2px;
+    }
+    
+}

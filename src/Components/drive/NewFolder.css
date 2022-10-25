@@ -1,0 +1,33 @@
+.add{
+    width:150px;
+    height: 80px;
+    background-color: whitesmoke;
+    border-radius: 0 0 0 7px;
+}
+.add p{
+    
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.modal{
+    top:30%;
+    /* border-radius: 200px; */
+}
+.modal-content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.modal-body label{
+    background-color: rgb(15 18 37);
+    color: white;
+}
+@media (max-width:350px){
+    .add{
+        width: 90px;
+        height: 60px;
+    }
+    .add p{
+        font-size: 8px;
+    }
+}
